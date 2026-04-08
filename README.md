@@ -63,3 +63,6 @@ To address this, we propose an efficient **"Detect - Local Diffuse - Stitch"** p
 git clone https://github.com/yushuosun/Seamless-DocSeal.git
 cd Seamless-DocSeal
 pip install -r requirements.txt
+
+kaggle地址:
+https://www.kaggle.com/code/yushuosun/yolo-training
