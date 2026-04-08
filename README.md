@@ -56,13 +56,7 @@ To address this, we propose an efficient **"Detect - Local Diffuse - Stitch"** p
 | `seal_init.pth` | DocDiff 初始预测权重 | (DocDiff官方提供) |
 | `seal_denoiser.pth` | DocDiff 去噪扩散权重 | (DocDiff官方提供) |
 
-## 🚀 快速开始 (Quick Start)
 
-**1. 环境配置**
-```bash
-git clone https://github.com/yushuosun/Seamless-DocSeal.git
-cd Seamless-DocSeal
-pip install -r requirements.txt
 
 kaggle地址:
 https://www.kaggle.com/code/yushuosun/yolo-training
@@ -70,3 +64,11 @@ https://www.kaggle.com/code/yushuosun/yolo-training
 
 数据集地址:
 https://www.kaggle.com/datasets/yushuosun/seal-dataset
+
+## 🚀 快速开始 (Quick Start)
+
+**1. 环境配置**
+```bash
+git clone https://github.com/yushuosun/Seamless-DocSeal.git
+cd Seamless-DocSeal
+pip install -r requirements.txt
