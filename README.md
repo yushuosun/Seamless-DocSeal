@@ -60,6 +60,6 @@ To address this, we propose an efficient **"Detect - Local Diffuse - Stitch"** p
 
 **1. 环境配置**
 ```bash
-git clone https://github.com/YourUsername/Seamless-DocSeal.git
+git clone https://github.com/yushuosun/Seamless-DocSeal.git
 cd Seamless-DocSeal
 pip install -r requirements.txt
