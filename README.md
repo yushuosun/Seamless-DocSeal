@@ -66,3 +66,7 @@ pip install -r requirements.txt
 
 kaggle地址:
 https://www.kaggle.com/code/yushuosun/yolo-training
+
+
+数据集地址:
+https://www.kaggle.com/datasets/yushuosun/seal-dataset
