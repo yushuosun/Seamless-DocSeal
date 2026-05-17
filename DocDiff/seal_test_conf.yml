@@ -1,0 +1,45 @@
+# model
+IMAGE_SIZE : [128, 128]
+CHANNEL_X : 3
+CHANNEL_Y : 3
+TIMESTEPS : 100
+SCHEDULE : 'linear'
+MODEL_CHANNELS : 32
+NUM_RESBLOCKS : 1
+CHANNEL_MULT : [1,2,3,4]
+NUM_HEADS : 1
+
+MODE : 0
+PRE_ORI : 'True'
+
+# train
+PATH_GT : 'E:/per/LEARNING/AI_ra/stamp/data/印章数据集/rec/seal_0'
+PATH_IMG : 'E:/per/LEARNING/AI_ra/stamp/data/印章数据集/rec/seal_0'
+BATCH_SIZE : 32
+NUM_WORKERS : 16
+ITERATION_MAX : 1000000
+LR : 0.0001
+LOSS : 'L2'
+EMA_EVERY : 100
+START_EMA : 2000
+SAVE_MODEL_EVERY : 10000
+EMA: 'True'
+CONTINUE_TRAINING : 'False'
+CONTINUE_TRAINING_STEPS : 10000
+PRETRAINED_PATH_INITIAL_PREDICTOR : ''
+PRETRAINED_PATH_DENOISER : ''
+WEIGHT_SAVE_PATH : './checksave'
+TRAINING_PATH : './Training'
+BETA_LOSS : 50
+HIGH_LOW_FREQ : 'True'
+
+# test
+NATIVE_RESOLUTION : 'True'
+DPM_SOLVER : 'True'
+DPM_STEP : 20
+BATCH_SIZE_VAL : 1
+TEST_PATH_GT : 'E:/per/LEARNING/AI_ra/stamp/data/印章数据集/rec/seal_0'
+TEST_PATH_IMG : 'E:/per/LEARNING/AI_ra/stamp/data/印章数据集/rec/seal_0'
+TEST_INITIAL_PREDICTOR_WEIGHT_PATH : 'checksave/seal_init.pth'
+TEST_DENOISER_WEIGHT_PATH : 'checksave/seal_denoiser.pth'
+TEST_IMG_SAVE_PATH : 'E:/per/LEARNING/AI_ra/stamp/output/docdiff_rec_seal_0_results'

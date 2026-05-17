@@ -1,0 +1,68 @@
+# ── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+
+# ── Virtual envs ────────────────────────────────────────────────
+.venv*/
+venv/
+env/
+
+# ── IDEs ────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ─────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# ── Model weights (训练自己跑, README 有指引) ────────────────────
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# ── Training runs / outputs ─────────────────────────────────────
+yolo_runs/
+runs/
+Training/
+output/
+outputs/
+
+# ── Data (训练/测试数据集都不进 repo) ─────────────────────────────
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# ── Generated artifacts ─────────────────────────────────────────
+*.jpg
+*.jpeg
+*.png
+*.bmp
+# 但保留 README/示例图
+!docs/**/*.png
+!docs/**/*.jpg
+!assets/**/*.png
+!assets/**/*.jpg
+
+# ── Logs ────────────────────────────────────────────────────────
+*.log
+*.train_log.csv
+
+# ── 临时文件 ────────────────────────────────────────────────────
+*.tmp
+~$*
+*.bak

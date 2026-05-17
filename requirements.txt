@@ -1,0 +1,17 @@
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23.0
+opencv-python>=4.7.0
+Pillow>=9.5.0
+tqdm>=4.65.0
+
+# Detection
+ultralytics>=8.2.0   # YOLO11n
+
+# DocDiff dependencies
+PyYAML>=6.0          # config
+einops>=0.6.0        # tensor ops (if used by DocDiff)
+
+# Optional: training visualization
+# tensorboard>=2.13.0
